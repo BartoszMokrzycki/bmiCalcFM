@@ -444,7 +444,7 @@ body {
     padding: 6em 3em;
     position: absolute;
     width: 450px;
-    right: -200px;
+    right: -300px;
   }
   .bmi-section {
     padding: 4em;
@@ -479,6 +479,7 @@ body {
     align-items: center;
     padding: 4em;
     margin: 4em 0;
+    margin-top: 150px;
   }
   .bmi-advice .flex-group-advice {
     display: flex;
@@ -550,6 +551,29 @@ body {
   .bmi-meaning .section-text {
     line-height: 180%;
     font-size: 1.8rem;
+  }
+  .bmi-section {
+    padding: 4em;
+  }
+  .bmi-section .bmi-calculator {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+  }
+  .bmi-section .bmi-calculator .countBtn {
+    align-self: center;
+  }
+  .bmi-section .bmi-calculator .checkbox-box label {
+    font-size: 1.6rem;
+    margin-left: 0em;
+  }
+  .bmi-section .bmi-calculator .result-box {
+    height: 150px;
+    align-items: baseline;
+  }
+  .bmi-section .bmi-calculator .result-box--info {
+    width: 250px;
+    line-height: 150%;
   }
   .bmi-limit .limit-box__item:nth-child(4) {
     transform: translateX(-250px);

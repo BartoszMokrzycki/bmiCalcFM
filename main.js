@@ -325,3 +325,23 @@ countBtn.addEventListener('click', () => {
 		behaviour: 'smooth',
 	});
 });
+
+const inputConfig = [
+	{ element: heightMetric, maxLength: 3 },
+	{ element: weightMetric, maxLength: 3 },
+	{ element: heightImperialUSft, maxLength: 1 },
+	{ element: heightImperialUSin, maxLength: 2 },
+	{ element: heightImperialUKft, maxLength: 1 },
+	{ element: heightImperialUKin, maxLength: 2 },
+	{ element: weightImperialUS, maxLength: 3 },
+	{ element: weightImperialUKibs, maxLength: 3 },
+	{ element: weightImperialUKst, maxLength: 3 },
+];
+
+inputConfig.forEach(config => {
+	config.element.addEventListener('input', function () {
+		if (this.value.length > config.maxLength) {
+			this.value = this.value.slice(0, config.maxLength);
+		}
+	});
+});
