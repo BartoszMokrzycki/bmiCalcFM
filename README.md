@@ -2,7 +2,7 @@
 
 This project is an interactive Body Mass Index (BMI) calculator that allows users to calculate their BMI based on height and weight. The calculator supports metric and imperial (US and UK) units, offering personalized advice and feedback on health status.
 
-![BMI Calculator Screenshot](screenshot.png)
+
 
 ## Features
 
