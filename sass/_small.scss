@@ -1,0 +1,63 @@
+@media (min-width: 576px) {
+	.section-text {
+		font-size: 1.6rem;
+		padding-bottom: 2em;
+	}
+
+	.bmi-section {
+		.bmi-calculator {
+			.checkbox-box {
+				label {
+					font-size: 1.6rem;
+					margin-left: -2em;
+				}
+			}
+		}
+
+		.bmi-calculator {
+			.result-box {
+				// display: flex;
+				align-items: center;
+				justify-content: space-between;
+				border-radius: 8px 75px 75px 8px;
+
+				&--info {
+					width: 250px;
+				}
+			}
+		}
+	}
+
+	.bmi-advice {
+		.advice-item {
+			display: flex;
+		}
+
+		.flex-group {
+			margin-left: 2em;
+		}
+	}
+
+	
+
+	.bmi-limit {
+		.section-text {
+			font-size: 1.8rem;
+			padding-bottom: 2em;
+		}
+		.limit-box {
+			padding: 2em;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 15px;
+
+			&__item {
+				&:nth-last-child(1) {
+					grid-column: 1 /-1;
+					justify-self: center;
+					width: 50%;
+				}
+			}
+		}
+	}
+}

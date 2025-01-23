@@ -1,0 +1,16 @@
+@media (min-width: 1440px) {
+	.bmi-limit {
+		.limit-box {
+			&__item {
+				&:nth-child(4) {
+					transform: translateX(-300px);
+				}
+
+				&:nth-last-child(1) {
+					
+					transform: translateX(-300px);
+				}
+			}
+		}
+	}
+}

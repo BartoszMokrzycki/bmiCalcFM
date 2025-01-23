@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+	.bmi-calculator {
+		.input-box {
+			.metric {
+				flex-direction: row;
+				justify-content: space-between;
+				.flex-group {
+					width: 48%;
+				}
+			}
+		}
+	}
+	.bmi-meaning {
+		display: flex;
+
+		&--img {
+			width: 50vw;
+		}
+
+		.flex-group {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.section-text {
+			padding: 0em 1em;
+		}
+	}
+
+	
+}

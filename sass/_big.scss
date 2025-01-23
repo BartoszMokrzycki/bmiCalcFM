@@ -1,0 +1,146 @@
+@media (min-width: 966px) {
+	.curved-line {
+		display: block;
+		position: absolute;
+
+		z-index: 10;
+	}
+
+	.left {
+		margin: 0 auto;
+		top: -20px;
+
+		transform: rotate(-180deg);
+		width: 200px;
+		height: 200px;
+	}
+
+	.right {
+		top: 300px;
+		left: 200px;
+	}
+
+	.bmi-section {
+		position: relative;
+		flex-direction: row;
+		text-align: left;
+		align-items: start;
+		padding: 5em;
+		width: 70%;
+
+		img {
+			margin-bottom: 5em;
+		}
+
+		h2,
+		.section-text {
+			padding-right: 2em;
+			width: 70%;
+		}
+
+		.bmi-calculator {
+			padding: 6em 3em;
+			position: absolute;
+			width: 450px;
+			// top: 100px;
+			right: -200px;
+		}
+	}
+
+	.bmi-section {
+		padding: 4em;
+		.bmi-calculator {
+			display: flex;
+			flex-direction: column;
+
+			.countBtn {
+				align-self: center;
+			}
+			.checkbox-box {
+				label {
+					font-size: 1.6rem;
+					margin-left: 0em;
+				}
+			}
+
+			.result-box {
+				align-items: baseline;
+				&--info {
+					width: 150px;
+					line-height: 150%;
+				}
+			}
+		}
+	}
+
+	.bmi-calculator {
+		.input-box {
+			.metric {
+				flex-direction: column;
+
+				.flex-group {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	.bmi-meaning {
+		position: relative;
+		display: flex;
+		align-items: center;
+		padding: 4em;
+		margin: 4em 0;
+	}
+
+	.bmi-advice {
+		.flex-group-advice {
+			display: flex;
+			justify-content: space-around;
+
+			.advice-item {
+				padding: 0em 0.5em;
+				display: block;
+			}
+
+			.flex-group {
+				margin-left: 0;
+			}
+		}
+	}
+
+	.bmi-limit {
+		position: relative;
+		display: flex;
+		padding: 3em 0;
+
+		.limit-box {
+			background: none;
+			margin-top: 3em;
+
+			&__item {
+				transition: transform 0.3s;
+				padding: 2em;
+				&:nth-child(1) {
+					grid-column: 1/-1;
+					width: 50%;
+					justify-self: center;
+				}
+
+				&:nth-child(4) {
+					transform: translateX(-200px);
+				}
+
+				&:nth-last-child(1) {
+					grid-column: 2/-1;
+					width: 100%;
+					transform: translateX(-200px);
+				}
+
+				&--text {
+					padding: 1em 0;
+				}
+			}
+		}
+	}
+}
