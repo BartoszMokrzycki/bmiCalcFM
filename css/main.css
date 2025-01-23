@@ -119,7 +119,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.bmi-section .bmi-calculator .input-box__item label {
+.bmi-section .bmi-calculator .input-box__item label, .bmi-section .bmi-calculator .input-box__item .label {
   font-size: 1.4rem;
   line-height: 150%;
   color: #5e6e85;

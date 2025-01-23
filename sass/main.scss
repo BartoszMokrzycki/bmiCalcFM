@@ -133,7 +133,7 @@ body {
 				display: flex;
 				flex-direction: column;
 
-				label {
+				label, .label {
 					font-size: 1.4rem;
 					line-height: 150%;
 					color: $projectDarkElectricBlue;
