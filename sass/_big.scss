@@ -25,7 +25,7 @@
 		flex-direction: row;
 		text-align: left;
 		align-items: start;
-		padding: 5em;
+
 		width: 70%;
 
 		img {
@@ -48,7 +48,10 @@
 	}
 
 	.bmi-section {
-		padding: 4em;
+		padding: 8em;
+		&--intro {
+			padding: 3em;
+		}
 		.bmi-calculator {
 			display: flex;
 			flex-direction: column;

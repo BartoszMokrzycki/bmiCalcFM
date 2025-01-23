@@ -429,7 +429,6 @@ body {
     flex-direction: row;
     text-align: left;
     align-items: start;
-    padding: 5em;
     width: 70%;
   }
   .bmi-section img {
@@ -447,7 +446,10 @@ body {
     right: -300px;
   }
   .bmi-section {
-    padding: 4em;
+    padding: 8em;
+  }
+  .bmi-section--intro {
+    padding: 3em;
   }
   .bmi-section .bmi-calculator {
     display: flex;
@@ -525,7 +527,6 @@ body {
 @media (min-width: 1200px) {
   .bmi-section {
     width: 75%;
-    padding: 8em;
   }
   .bmi-section img {
     width: 64px;
@@ -551,9 +552,6 @@ body {
   .bmi-meaning .section-text {
     line-height: 180%;
     font-size: 1.8rem;
-  }
-  .bmi-section {
-    padding: 4em;
   }
   .bmi-section .bmi-calculator {
     display: flex;
